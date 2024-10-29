@@ -1,0 +1,69 @@
+@media only screen and (max-width:1450px){
+    #dotsstoremain header .dots-header-right .logo-detail{width:50%;}
+    #dotsstoremain header .button-dots-left{margin-right:15px;}
+    .dots-plugin-details .dots-header-left .plugin-name .title{line-height:32px;font-weight:500;font-size:25px;margin-bottom:15px;}
+    .dots-plugin-details .dots-header-left .plugin-name .desc{line-height:25px;font-weight:400;font-size:16px;}
+    .upgrade-to-pro-modal-main .pro-modal-wrapper{padding:24px;max-width:370px;}
+    .upgrade-to-pro-modal-main .pro-modal-header p{font-size:16px;}
+    .upgrade-to-pro-modal-main .pro-modal-body p{font-size:15px;}
+    .upgrade-to-pro-modal-main .pro-feature-list li{font-size:14px;}
+    .upgrade-to-pro-modal-main .pro-feature-trial-btn{padding:8px 20px 12px;font-size:14px;}
+    .upgrade-to-pro-modal-main .pro-modal-body .pro-feature-title{margin:14px 0 15px;font-size:18px;}
+    .upgrade-to-pro-modal-main .pro-feature-list{margin:17px 0 0;}
+    .upgrade-to-pro-modal-main .pro-modal-footer{margin:16px 0 0;}
+    .upgrade-to-pro-modal-main .modal-close-btn{top:-12px;right:-16px;cursor:pointer;font-size:25px;line-height:17px;}
+}
+@media only screen and (max-width:1260px){
+    #dotsstoremain .usps-shipping-method-table tr th,#dotsstoremain .usps-shipping-method-table tr td{display:table-cell;}
+    .ausm-section-left .ausm_services .service-column{width:55%;}
+    .ausm-section-left .ausm_services th{font-size:12px;}
+}
+@media only screen and (min-width:1181px) and (max-width:1380px){
+    .et-star-rating label{width:22px;height:22px;}
+    .dots-plugin-details .dots-header-left{-ms-flex-preferred-size:60%;flex-basis:60%;}
+    .dots-header-right{-ms-flex-preferred-size:40%;flex-basis:40%;}
+    #dotsstoremain .button-dots{margin:0 10px;}
+    .button-dots span.support_dotstore_image{margin-right:5px;}
+    .dots-logo-main .plugin-version{padding:8px 5px;}
+    #dotsstoremain .dotstore_plugin_sidebar{margin-left:17px;width:calc(100% - 32px);}
+    #dotsstoremain .dots-seperator{margin:0 0 10px 15px;}
+    img.sidebar_plugin_icone{width:38px;}
+    .video-detail ul li{width:100%;padding:0 10px;}
+    .important-link ul li a{font-size:13px!important;line-height:21px;}
+}
+@media only screen and (max-width:1180px){
+    .dots-plugin-details{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;}
+    .dots-plugin-details .dots-header-left{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+    .dots-plugin-details .dots-header-left .plugin-name{text-align:center;margin:20px 20px;}
+    .dots-plugin-details .dots-header-right{padding:24px 0px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+    #dotsstoremain .all-pad .dots-settings-inner-main{-ms-flex-wrap:wrap;flex-wrap:wrap;}
+    #dotsstoremain .ausm-section-left,#dotsstoremain .ausm-section-right{width:100%;}
+    #dotsstoremain .dots-seperator{display:none;}
+    #dotsstoremain .dotstore_plugin_sidebar{margin:25px auto 30px;max-width:500px;display:block;width:100%;}
+    #dotsstoremain .all-pad.hide-sidebar .dotstore_plugin_sidebar{display:block;}
+    #dotsstoremain .all-pad.hide-sidebar .ausm-section-left,#dotsstoremain .all-pad.hide-sidebar .ausm-section-right{width:100%;}
+}
+@media only screen and (max-width:960px){
+    .ausm-main-table .usps-shipping-method-table tbody tr td input,.ausm-main-table .usps-shipping-method-table tbody tr td select{width:68%;}
+}
+@media only screen and (max-width:782px){
+    .ausm-main-table input,.ausm-main-table .form-table select{font-size:14px;}
+    .ausm-main-table .usps-shipping-method-table tbody tr td input,.ausm-main-table .usps-shipping-method-table tbody tr td select{width:80%;}
+    #dotsstoremain .all-pad{margin-right:10px;}
+    .ausm-section-left .ausm_services input[type=checkbox],.ausm-section-left .ausm_services input[type=radio]{height:18px;width:18px;}
+    .ausm-section-left .ausm_services input[type=checkbox]:before{height:24px;width:24px;}
+    .sub_services li label{font-size:13px;line-height:3;}
+}
+@media only screen and (max-width:560px){
+    .dots-plugin-details .dots-header-left .plugin-name .title{font-size:24px;}
+    .dots-plugin-details .dots-header-left .plugin-name .desc{font-size:16px;}
+    .dots-plugin-details .dots-header-right .button-dots span.support_dotstore_image a span{font-size:40px;margin-bottom:0px;}
+    .dots-plugin-details .dots-header-right .button-dots span.support_dotstore_image a strong{font-size:12px;}
+    .dots-plugin-details .dots-header-right .button-group .button-dots{margin-left:10px;margin-right:10px;}
+}
+@media only screen and (max-width:438px){
+    .dots-plugin-details .dots-header-left .dots-logo-main{margin:10px;}
+    .dots-plugin-details .dots-header-left .plugin-name{margin-top:5px;}
+    .dots-plugin-details .dots-header-left .plugin-name .title{font-size:20px;}
+    .dots-plugin-details .dots-header-left .plugin-name .desc{font-size:14px;}
+}

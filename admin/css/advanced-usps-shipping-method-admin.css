@@ -1,0 +1,114 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+#dotsstoremain .all-pad .dots-settings-inner-main{display:-webkit-box;display:-ms-flexbox;display:flex;width:100%;position:relative;-ms-flex-wrap:nowrap;flex-wrap:nowrap;}
+#dotsstoremain .ausm-section-right{width:22%;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:nowrap;flex-wrap:nowrap;}
+
+#dotsstoremain .all-pad.hide-sidebar .ausm-section-left{width:calc(100% - 22px);}
+#dotsstoremain .all-pad.hide-sidebar .ausm-section-right{width:0;}
+#dotsstoremain .all-pad.hide-sidebar .dotstore_plugin_sidebar{display:none;}
+.ausm-section-left .notice{margin:0px 0px 5px;}
+
+/** Start: Common CSS */
+.hide{display:none;}
+.show{display:block;}
+.blockUI.blockOverlay::before{height:1em;width:1em;display:block;position:absolute;top:50%;left:50%;margin-left:-0.5em;margin-top:-0.5em;content:"";-webkit-animation:spin 1s ease-in-out infinite;animation:spin 1s ease-in-out infinite;background:url("../images/loader.svg") center center;background-size:cover;line-height:1;text-align:center;font-size:2em;color:rgba(0,0,0,.75);}
+@-webkit-keyframes spin{
+    100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}
+}
+@keyframes spin{
+    100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}
+}
+/** End: Common CSS */
+
+/* Start: shipping cofigure table */
+.ausm-main-table h2,.ausm-getting-started h2{background:#0073aa;border:1px solid #ddd;color:#fff;margin:0;padding:16px;font-size:20px;text-align:left;font-weight:400;}
+#dotsstoremain .form-table tr th{width:30%;}
+#dotsstoremain .form-table tr th,#dotsstoremain .form-table tr td{font-size:13px!important;color:#333;border:1px solid #ddd;line-height:20px;background:#fff;vertical-align:middle;padding:20px}
+.switch{position:relative;display:inline-block;width:60px;height:30px;}
+table.usps-shipping-method-table td.forminp .switch input{opacity:0;}
+.slider{position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background-color:#c3c3c3;-webkit-transition:.4s;transition:.4s}
+.slider:before{position:absolute;content:"";height:26px;width:26px;left:2px;bottom:2px;background-color:#fff;-webkit-transition:.4s;transition:.4s;}
+input:checked+.slider{background-color:#87c852}
+input:focus+.slider{box-shadow:0 0 1px #2196f3}
+input:checked+.slider:before{-webkit-transform:translateX(30px);-ms-transform:translateX(30px);transform:translateX(30px)}
+.slider.round{border-radius:34px}
+.slider.round:before{border-radius:50%}
+.ausm-main-table .usps-shipping-method-table tbody tr td input,.ausm-main-table .usps-shipping-method-table tbody tr td select{display:inline-block;width:40%;}
+.usps_shipping_method_tab_description,.woocommerce-help-tip{color:#8b8b8b;display:inline-block;font-size:18px;font-style:normal;height:16px;line-height:16px;position:relative;vertical-align:middle;width:16px;margin-left:10px;}
+.usps_shipping_method_tab_description::after,.woocommerce-help-tip::after{font-family:Dashicons;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;margin:0;text-indent:0;position:absolute;top:0;left:0;width:100%;height:100%;text-align:center;content:"\f223";cursor:help;}
+/* End: shipping cofigure table */
+
+/* Start: services setting table */
+.ausm-section-left table.ausm_services,.ausm-section-left .ausm_services th,.ausm-section-left .ausm_services td{border-collapse:collapse;border:1px solid #c3c4c7;}
+.input-group-text{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:0.375rem 0.75rem;margin-bottom:0;font-size:1rem;font-weight:400;line-height:1.5;color:#495057;text-align:center;white-space:nowrap;background-color:#def0de; /* #e9ecef */border:1px solid #ced4da;border-radius:0.25rem;}
+.input-group-text.enabled{background-color:#def0de; /* #e9ecef */}
+.input-group-text.disabled{background-color:#e9ecef; /* #def0de */}
+.sub_services li .price-field,.sub_services li .percentage-field{display:block;padding:0.375rem 0.75rem;line-height:1.5;border-radius:0.25rem;position:relative;-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto;width:1%;border:1px solid #ced4da;}
+.sub_services li{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;width:100%;}
+.sub_services li label{font-size:15px;line-height:2.5;}
+.input-group-prepend{margin-right:-2px;display:-webkit-box;display:-ms-flexbox;display:flex;}
+.input-group-prepend .input-group-text,.sub_services li .percentage-field{border-top-right-radius:0;border-bottom-right-radius:0;}
+.input-group-append{margin-left:-2px;display:-webkit-box;display:-ms-flexbox;display:flex;}
+.input-group-append .input-group-text,.sub_services li .price-field{border-top-left-radius:0;border-bottom-left-radius:0;}
+.ausm_services .ui-state-highlight{background-color:#b8d9e9;}
+.ausm_services .movable{cursor:move;vertical-align:middle;text-align:center;}
+/* End: services setting table */
+
+
+
+/* Start: Tooltip CSS (tiptip JS) */
+#tiptip_holder{display:none;z-index:8675309;position:absolute;top:0;left:0}
+#tiptip_holder.tip_top{padding-bottom:5px}
+#tiptip_holder.tip_top #tiptip_arrow_inner{margin-top:-7px;margin-left:-6px;border-top-color:#333}
+#tiptip_holder.tip_bottom{padding-top:5px}
+#tiptip_holder.tip_bottom #tiptip_arrow_inner{margin-top:-5px;margin-left:-6px;border-bottom-color:#333}
+#tiptip_holder.tip_right{padding-left:5px}
+#tiptip_holder.tip_right #tiptip_arrow_inner{margin-top:-6px;margin-left:-5px;border-right-color:#333}
+#tiptip_holder.tip_left{padding-right:5px}
+#tiptip_holder.tip_left #tiptip_arrow_inner{margin-top:-6px;margin-left:-7px;border-left-color:#333}
+#tiptip_content,.chart-tooltip,.wc_error_tip{color:#fff;font-size:.8em;max-width:150px;background:#333;text-align:center;border-radius:3px;padding:.618em 1em;box-shadow:0 1px 3px rgba(0,0,0,.2)}
+#tiptip_content code,.chart-tooltip code,.wc_error_tip code{padding:1px;background:#888}
+#tiptip_arrow,#tiptip_arrow_inner{position:absolute;border-color:transparent;border-style:solid;border-width:6px;height:0;width:0}
+/* End: Tooltip CSS (tiptip JS) */
+
+/* Start: Premium feature show CSS */
+@-webkit-keyframes ausmModalEffect{
+	0%{top:-8%;}
+	100%{top:0;}
+}
+@keyframes ausmModalEffect{
+	0%{top:-8%;}
+	100%{top:0;}
+}
+body.ausm-modal-visible{overflow:hidden;}
+.ausm-section-left .ausm-pro-label{width:16px;height:18px;background-image:url("../images/pro-feature-icon.svg");background-repeat:no-repeat;display:inline-block;vertical-align:middle;margin:0 0 0 6px;cursor:pointer;}
+.upgrade-to-pro-modal-main{display:inline-block;width:100%;visibility:hidden;opacity:0;position:fixed;z-index:99999;top:0;left:0;height:100%;background:hsla(0,0%,0%,0.5);overflow:auto;padding:50px 0;}
+.ausm-modal-visible .upgrade-to-pro-modal-main{visibility:visible;opacity:1;}
+.upgrade-to-pro-modal-main .upgrade-to-pro-modal-outer{width:100%;height:100%;display:table;}
+.upgrade-to-pro-modal-main .pro-modal-inner{display:table-cell;vertical-align:middle;}
+.upgrade-to-pro-modal-main .pro-modal-wrapper{z-index:99999;width:100%;background-color:#fff;-webkit-box-shadow:0 0 1.5em hsl(0deg 0% 0% / 35%);box-shadow:0 0 1.5em hsl(0deg 0% 0% / 35%);max-width:390px;margin:0 auto;border-radius:15px;padding:30px;visibility:hidden;opacity:0;position:relative;-webkit-transition:all ease-in-out 0.3s;-o-transition:all ease-in-out 0.3s;transition:all ease-in-out 0.3s;}
+.ausm-modal-visible .upgrade-to-pro-modal-main .pro-modal-wrapper{visibility:visible;opacity:1;-webkit-animation-name:ausmModalEffect;animation-name:ausmModalEffect;-webkit-animation-duration:0.3s;animation-duration:0.3s;}
+.upgrade-to-pro-modal-main .pro-modal-header{position:relative;}
+.upgrade-to-pro-modal-main .modal-close-btn{position:absolute;top:-17px;right:-22px;cursor:pointer;font-size:30px;line-height:20px;width:auto;height:auto;color:#000;}
+.upgrade-to-pro-modal-main .pro-modal-header p{margin:0;font-size:17px;font-weight:500;color:#3c434a;}
+.upgrade-to-pro-modal-main .ausm-pro-label{margin:0 7px 0 0;}
+.upgrade-to-pro-modal-main .pro-modal-body p{font-size:16px;margin:0 0 14px 0;}
+.upgrade-to-pro-modal-main .pro-modal-body .pro-feature-title{margin:15px 0 18px;font-size:20px;line-height:normal;font-weight:700;}
+.upgrade-to-pro-modal-main .pro-modal-footer{text-align:center;margin:20px 0 0;}
+.upgrade-to-pro-modal-main .pro-feature-trial-btn{padding:8px 25px 12px;line-height:1.5;color:#000;border-radius:4px;-webkit-box-shadow:inset 0 -4px 0 rgb(0 0 0 / 20%);box-shadow:inset 0 -4px 0 rgb(0 0 0 / 20%);-webkit-filter:drop-shadow(0 2px 4px rgba(0,0,0,.2));filter:drop-shadow(0 2px 4px rgba(0,0,0,.2));text-decoration:none;background-color:#fec228;border-color:transparent;font-size:16px;font-weight:500;white-space:normal;cursor:pointer;display:inline-block;}
+.upgrade-to-pro-modal-main .pro-feature-list{margin:22px 0 0;}
+.upgrade-to-pro-modal-main .pro-feature-list li{font-size:15px;padding:0 0 8px 20px;position:relative;margin:0;line-height:normal;}
+.upgrade-to-pro-modal-main .pro-feature-list li::before{content:"+";position:absolute;left:0;font-weight:600;}
+/* End: Premium feature show CSS */
+
+/* Start getting started page */
+.getting-started-wrap{border:1px solid #ddd;line-height:20px;background:#FFF;padding:20px;}
+.ausm-gs-title{font-size:18px;font-weight:700;margin:5px 0;}
+.ausm-gs-text{font-size:15px;margin:10px 0px;}
+.ausm-gs-step img{border:2px solid #e9e9e9;margin:20px auto;width:100%;display:block;border-radius:10px;}
+.ausm-gs-step{font-size:15px;}
+.ausm-gs-step strong{font-size:18px;}
+/* End getting started page*/

@@ -1,0 +1,588 @@
+# Copyright (C) 2022 theDotstore
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced USPS Shipping Method (Premium) 1.0.1\n"
+"Report-Msgid-Bugs-To: https://www.multidots.com/contact/\n"
+"POT-Creation-Date: 2022-10-17 13:15+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-04-15 09:34+0000\n"
+"Last-Translator: \n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Country: India\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0.2"
+
+#: admin/partials/ausm-configuration-page.php:19
+msgid ""
+"<div class=\"notice notice-error is-dismissible\"><p>There is some error "
+"occur. Please try again.</p></div>"
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:27
+msgid ""
+"<div class=\"notice notice-success is-dismissible\"><p>USPS Configuration "
+"has been successfully stored.</p></div>"
+msgstr ""
+
+#: admin/partials/ausm-get-started-page.php:20
+msgid ""
+"<strong>Step 1: </strong>Enable this option to show USPS Shipping Methods on "
+"cart/checkout page."
+msgstr ""
+
+#: admin/partials/ausm-get-started-page.php:26
+msgid ""
+"<strong>Step 2: </strong>Add USPS Shipping Account ID which helps you to "
+"connect with USPS services."
+msgstr ""
+
+#: admin/partials/ausm-get-started-page.php:32
+msgid ""
+"<strong>Step 3: </strong>Simply click on the \"Check Connection\" button and "
+"you will get notified about USPS account user ID whether is connected or not."
+msgstr ""
+
+#: admin/partials/ausm-get-started-page.php:38
+msgid ""
+"<strong>Step 4: </strong>Now, you can save the configuration settings and "
+"check it on cart/checkout page."
+msgstr ""
+
+#: admin/class-advanced-usps-shipping-method-admin.php:180
+#: admin/class-advanced-usps-shipping-method-admin.php:226
+msgid "About Plugin"
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:309
+#: admin/partials/header/plugin-sidebar.php:36
+msgid "Adjust USPS API price by additional fix cost"
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:310
+#: admin/partials/header/plugin-sidebar.php:37
+msgid "Adjust USPS API price by additional percentage cost"
+msgstr ""
+
+#: admin/class-advanced-usps-shipping-method-admin.php:567
+msgid "Advanced Failed loading XML"
+msgstr ""
+
+#: admin/class-advanced-usps-shipping-method-admin.php:570
+msgid "Advanced Invalid XML response format"
+msgstr ""
+
+#: includes/ausm-init-shipping-methods.php:75
+msgid ""
+"Advanced USPS debug mode is on - to hide these messages, turn debug mode off "
+"in the settings."
+msgstr ""
+
+#: advanced-usps-shipping-method.php:102
+#: includes/ausm-init-shipping-methods.php:42
+msgid "Advanced USPS Shipping Method"
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:130
+msgid "ALL"
+msgstr ""
+
+#: admin/class-advanced-usps-shipping-method-admin.php:575
+msgid "Authorization failure"
+msgstr ""
+
+#: admin/partials/ausm-get-started-page.php:17
+msgid "Below are the basic steps to configure plugin:"
+msgstr ""
+
+#: admin/partials/header/plugin-sidebar.php:97
+msgid "Changelog"
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:156
+msgid "Cheapest rate"
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:308
+#: admin/partials/header/plugin-sidebar.php:35
+msgid "Check API connection by one click"
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:104
+#: admin/partials/ausm-configuration-page.php:108
+msgid "Check connection"
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:133
+msgid ""
+"Choose which rates to show your customers, ONLINE rates are normally cheaper "
+"than others."
+msgstr ""
+
+#: admin/partials/ausm-information-page.php:28
+msgid "Click here"
+msgstr ""
+
+#: admin/partials/header/plugin-sidebar.php:77
+msgid "Click here »"
+msgstr ""
+
+#: admin/partials/ausm-import-export-page.php:19
+msgid "Click the button below to export the settings for this plugin."
+msgstr ""
+
+#: admin/class-advanced-usps-shipping-method-admin.php:170
+#: admin/class-advanced-usps-shipping-method-admin.php:221
+msgid "Configure USPS"
+msgstr ""
+
+#: admin/partials/ausm-get-started-page.php:14
+msgid "Connect with USPS API and fetch shipping services rate."
+msgstr ""
+
+#: admin/class-advanced-usps-shipping-method-admin.php:532
+#: admin/class-advanced-usps-shipping-method-admin.php:586
+msgid "Connected"
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:96
+msgid "Connection Status"
+msgstr ""
+
+#: admin/class-advanced-usps-shipping-method-admin.php:212
+#: admin/class-advanced-usps-shipping-method-admin.php:263
+msgid "Contact Support"
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:75
+msgid "Debug Mode"
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:147
+msgid "Default shipping rate"
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:138
+msgid "Default shipping title"
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:142
+msgid ""
+"Default title show after the USPS shipping method and also for the default "
+"shipping method title."
+msgstr ""
+
+#: admin/partials/header/plugin-sidebar.php:89
+msgid "Do you have any feedback & feature requests?"
+msgstr ""
+
+#: admin/partials/header/plugin-header.php:44
+msgid "Documentation"
+msgstr ""
+
+#: admin/class-advanced-usps-shipping-method-admin.php:197
+#: admin/class-advanced-usps-shipping-method-admin.php:248
+msgid "Dotstore"
+msgstr ""
+
+#: admin/class-advanced-usps-shipping-method-admin.php:120
+msgid "DotStore Plugins"
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:82
+msgid ""
+"Enable debug mode to show debugging information on your cart/checkout page."
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:70
+msgid ""
+"Enable or Disable the USPS shipping method using this button (USPS method "
+"will be visible to customers only if this option is enabled)."
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:163
+msgid "Enable this option will only show the cheapest rate from USPS shipping."
+msgstr ""
+
+#: admin/partials/ausm-information-page.php:50
+msgid "English, German"
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:120
+msgid "Enter the postcode for the shop shipment."
+msgstr ""
+
+#: admin/partials/ausm-import-export-page.php:21
+msgid "Export"
+msgstr ""
+
+#: admin/partials/ausm-import-export-page.php:16
+msgid "Export Settings"
+msgstr ""
+
+#: admin/partials/ausm-import-export-page.php:22
+msgid ""
+"Export the settings for this site as a .json file. This allows you to easily "
+"import the configuration into another site for this plugin."
+msgstr ""
+
+#: admin/partials/header/plugin-sidebar.php:114
+msgid "Extra Fees Plugin for WooCommerce"
+msgstr ""
+
+#: admin/partials/header/plugin-sidebar.php:172
+msgid "Five Star Support"
+msgstr ""
+
+#: admin/partials/header/plugin-sidebar.php:109
+msgid "Flat Rate Shipping Plugin For WooCommerce"
+msgstr ""
+
+#: advanced-usps-shipping-method.php:148
+msgid "Free Version"
+msgstr ""
+
+#: admin/partials/header/plugin-sidebar.php:73
+msgid "Free vs Pro Feature"
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:316
+#: admin/partials/header/plugin-sidebar.php:42
+msgid "Get Premium Now »"
+msgstr ""
+
+#: admin/class-advanced-usps-shipping-method-admin.php:185
+#: admin/class-advanced-usps-shipping-method-admin.php:231
+#: admin/partials/ausm-get-started-page.php:12
+msgid "Getting Started"
+msgstr ""
+
+#: admin/partials/header/plugin-sidebar.php:175
+msgid ""
+"Got a question? Get in touch with theDotstore developers. We are happy to "
+"help! "
+msgstr ""
+
+#: admin/partials/ausm-information-page.php:40
+msgid "Guide Documentation"
+msgstr ""
+
+#: admin/partials/ausm-information-page.php:33
+msgid "Help & Support"
+msgstr ""
+
+#: admin/partials/header/plugin-sidebar.php:76
+msgid ""
+"Here’s a glance view of the main differences between Premium and free plugin "
+"features."
+msgstr ""
+
+#: admin/partials/header/plugin-sidebar.php:119
+msgid "Hide Shipping Method For WooCommerce"
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:151
+msgid ""
+"If USPS returns no matching rates, offer this amount for shipping so that "
+"the user can still checkout. Leave blank to disable."
+msgstr ""
+
+#: admin/partials/ausm-import-export-page.php:36
+msgid "Import"
+msgstr ""
+
+#: admin/class-advanced-usps-shipping-method-admin.php:175
+msgid "Import / Export"
+msgstr ""
+
+#: admin/partials/ausm-import-export-page.php:29
+msgid "Import Settings"
+msgstr ""
+
+#: admin/partials/ausm-import-export-page.php:37
+msgid ""
+"Import the settings from a .json file. This file can be obtained by "
+"exporting the settings from another site using the form above."
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:312
+#: admin/partials/header/plugin-sidebar.php:39
+msgid "Import/Export plugin setting on one click"
+msgstr ""
+
+#: admin/partials/ausm-information-page.php:22
+msgid "Installed Version"
+msgstr ""
+
+#: admin/partials/header/plugin-sidebar.php:88
+msgid "Let us know how we can improve the plugin experience."
+msgstr ""
+
+#: admin/partials/ausm-information-page.php:26
+msgid "License & terms of use"
+msgstr ""
+
+#: admin/partials/header/plugin-sidebar.php:51
+msgid "Like This Plugin?"
+msgstr ""
+
+#: admin/partials/ausm-information-page.php:49
+msgid "Localization"
+msgstr ""
+
+#: admin/partials/header/plugin-header.php:55
+msgid "My Account"
+msgstr ""
+
+#: admin/class-advanced-usps-shipping-method-admin.php:602
+msgid "No data to export! please setup setting then export."
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:129
+msgid "ONLINE"
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:116
+msgid "Origin Postcode"
+msgstr ""
+
+#: admin/partials/header/plugin-sidebar.php:148
+msgid "Our Popular Plugins"
+msgstr ""
+
+#: admin/class-advanced-usps-shipping-method-admin.php:652
+msgid "Please add JSON file!"
+msgstr ""
+
+#: admin/class-advanced-usps-shipping-method-admin.php:526
+msgid "Please add USPS user ID"
+msgstr ""
+
+#: admin/class-advanced-usps-shipping-method-admin.php:107
+msgid "Please choose JSON file for import."
+msgstr ""
+
+#: admin/class-advanced-usps-shipping-method-admin.php:106
+msgid "Please wait..."
+msgstr ""
+
+#: admin/partials/header/plugin-header.php:17
+msgid "Plugin's logo"
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:131
+msgid "PLUS"
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:50
+msgid "Premium"
+msgstr ""
+
+#: admin/class-advanced-usps-shipping-method-admin.php:243
+msgid "Premium Version"
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:179
+msgid "Price Adjustment ($) "
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:183
+msgid "Price Adjustment (%) "
+msgstr ""
+
+#: advanced-usps-shipping-method.php:146
+msgid "Pro Version"
+msgstr ""
+
+#: admin/partials/header/plugin-sidebar.php:134
+msgid "Product Attachment For WooCommerce"
+msgstr ""
+
+#: admin/partials/ausm-information-page.php:18
+msgid "Product Name"
+msgstr ""
+
+#: admin/partials/header/plugin-sidebar.php:139
+msgid "Product Sample for WooCommerce"
+msgstr ""
+
+#: admin/partials/header/plugin-sidebar.php:129
+msgid "Product Size Charts For WooCommerce"
+msgstr ""
+
+#: admin/partials/ausm-information-page.php:14
+msgid "Product Type"
+msgstr ""
+
+#: admin/class-advanced-usps-shipping-method-admin.php:190
+#: admin/class-advanced-usps-shipping-method-admin.php:236
+msgid "Quick info"
+msgstr ""
+
+#: admin/partials/ausm-information-page.php:37
+msgid "Quick Start"
+msgstr ""
+
+#: admin/partials/header/plugin-header.php:35
+msgid "Quick Support"
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:311
+#: admin/partials/header/plugin-sidebar.php:38
+msgid "Rearrage shipping methods order to show best on top"
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:178
+msgid "Service(s)"
+msgstr ""
+
+#: includes/class-advanced-usps-shipping-method.php:267
+msgid "Settings"
+msgstr ""
+
+#: admin/class-advanced-usps-shipping-method-admin.php:660
+msgid "Settings has been successfully imported!"
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:125
+msgid "Shipping rates type"
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:63
+msgid "Status"
+msgstr ""
+
+#: admin/partials/header/plugin-sidebar.php:176
+msgid "Submit a Ticket »"
+msgstr ""
+
+#: admin/partials/header/plugin-sidebar.php:90
+msgid "Submit Request »"
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:303
+msgid "Subscribe to use this feature"
+msgstr ""
+
+#: admin/partials/header/plugin-sidebar.php:85
+msgid "Suggest A Feature"
+msgstr ""
+
+#: includes/class-advanced-usps-shipping-method.php:266
+msgid "Support"
+msgstr ""
+
+#: admin/partials/ausm-information-page.php:43
+msgid "Support Forum"
+msgstr ""
+
+#: admin/partials/ausm-get-started-page.php:41
+msgid "Thank you for choosing out plugin."
+msgstr ""
+
+#: includes/ausm-init-shipping-methods.php:43
+msgid ""
+"The <strong>USPS</strong> extension obtains rates dynamically from the USPS "
+"API during cart/checkout."
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:105
+#: admin/partials/ausm-configuration-page.php:109
+msgid "This indicate API connection with USPS."
+msgstr ""
+
+#: admin/partials/ausm-information-page.php:29
+msgid "to view license and terms of use."
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:306
+msgid "Try USPS Shipping Method Pro for free"
+msgstr ""
+
+#: admin/partials/header/plugin-sidebar.php:31
+msgid "Upgrade to Premium Version"
+msgstr ""
+
+#: admin/partials/header/plugin-header.php:64
+msgid "Upgrade To Pro"
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:91
+msgid "User ID will get from USPS after getting an account."
+msgstr ""
+
+#: admin/partials/ausm-import-export-page.php:11
+msgid "USPS Configuration Import / Export"
+msgstr ""
+
+#: admin/partials/ausm-get-started-page.php:10
+msgid "USPS Getting Started Page"
+msgstr ""
+
+#: admin/partials/ausm-information-page.php:10
+msgid "USPS Plugin Quick Information"
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:172
+msgid "USPS services settings"
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:55
+msgid "USPS Shipping Method Configuration"
+msgstr ""
+
+#: admin/partials/ausm-configuration-page.php:87
+msgid "USPS User ID"
+msgstr ""
+
+#: admin/partials/header/plugin-sidebar.php:166
+msgid "VIEW ALL"
+msgstr ""
+
+#: admin/partials/header/plugin-sidebar.php:101
+msgid "Visit Here »"
+msgstr ""
+
+#: admin/partials/header/plugin-sidebar.php:100
+msgid ""
+"We improvise our products on a regular basis to deliver the best results to "
+"customer satisfaction."
+msgstr ""
+
+#: admin/class-advanced-usps-shipping-method-admin.php:620
+msgid "Welldone! Export has been succesfully completed!"
+msgstr ""
+
+#: admin/partials/header/plugin-sidebar.php:124
+msgid "WooCommerce Anti-Fraud"
+msgstr ""
+
+#: admin/partials/ausm-information-page.php:15
+msgid "WooCommerce Plugin"
+msgstr ""
+
+#: admin/class-advanced-usps-shipping-method-admin.php:202
+#: admin/class-advanced-usps-shipping-method-admin.php:253
+msgid "WooCommerce Plugins"
+msgstr ""
+
+#: admin/class-advanced-usps-shipping-method-admin.php:207
+#: admin/class-advanced-usps-shipping-method-admin.php:258
+msgid "Wordpress Plugins"
+msgstr ""
+
+#: admin/partials/header/plugin-sidebar.php:65
+msgid "Your Review is very important to us as it helps us to grow more."
+msgstr ""

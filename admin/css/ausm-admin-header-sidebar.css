@@ -1,0 +1,108 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+/* Header Start */
+#dotsstoremain *{-webkit-box-sizing:border-box;box-sizing:border-box;}
+#dotsstoremain{width:100%;display:inline-block;-webkit-box-sizing:border-box;box-sizing:border-box;}
+#dotsstoremain .all-pad{margin:15px 15px 15px 0px;}
+header.dots-header{background:#d9d9d9;display:inline-block;margin-bottom:20px;vertical-align:top;width:100%}
+.dots-plugin-details{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;}
+
+/* Header left section start */
+.dots-plugin-details .dots-header-left{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-preferred-size:60%;flex-basis:60%;}
+
+.dots-plugin-details .dots-header-left .dots-logo-main .logo-image{background:#fff;padding:15px 15px;text-align:center;}
+.dots-plugin-details .dots-header-left .dots-logo-main .plugin-version{background:#0073aa;color:#fff;padding:8px 6px;font-weight:600;text-align:center;}
+.dots-plugin-details .dots-header-left .plugin-name{color:#000;margin-top:20px;}
+.dots-plugin-details .dots-header-left .plugin-name .title{line-height:40px;font-weight:500;font-size:30px;margin-bottom:15px;}
+.dots-plugin-details .dots-header-left .plugin-name .desc{line-height:28px;font-weight:400;font-size:18px;}
+/* Header left section end */
+
+/* Header right section start */
+.dots-plugin-details .dots-header-right{-ms-flex-preferred-size:40%;flex-basis:40%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;}
+.dots-plugin-details .dots-header-right .logo-detail{display:inline-block;padding-left:20px;-webkit-box-sizing:border-box;box-sizing:border-box;vertical-align:middle;margin:0;}
+.dots-plugin-details .dots-header-right .logo-detail strong{display:block;font-size:23px;margin-bottom:10px;color:#000;line-height:32px;}
+.dots-plugin-details .dots-header-right .button-group{display:block;float:right;}
+.dots-plugin-details .dots-header-right .button-group .button-dots{display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;vertical-align:middle;margin-left:20px;margin-right:20px;float:right;}
+.dots-plugin-details .dots-header-right .button-dots span.support_dotstore_image{display:block;text-align:center;}
+.dots-plugin-details .dots-header-right .button-dots span.support_dotstore_image a{text-decoration:none;}
+.dots-plugin-details .dots-header-right .button-dots span.support_dotstore_image a span{font-size:50px;display:block;width:50px;height:50px;margin:0 auto;margin-bottom:5px;}
+.dots-plugin-details .dots-header-right .button-dots span.support_dotstore_image a strong{font-size:15px;}
+/* Header right section end */
+
+/* Header End */
+
+/* Menu Start */
+.dots-menu-main ul li a{text-decoration:none;-webkit-transition:all .2s ease-in;-o-transition:all .2s ease-in;transition:all .2s ease-in;font-size:14px;display:block;line-height:28px;color:#000;padding:12px 16px}
+.dots-menu-main{width:100%;display:inline-block;background:rgba(152,152,152,.5);-webkit-box-sizing:border-box;box-sizing:border-box;vertical-align:bottom}
+.dots-menu-main ul li{display:block;position:relative;float:left;margin:0}
+.dots-menu-main ul li a.active{color:#fff;background:#444}
+.dots-menu-main ul li:hover>a{background:#444;color:#fff}
+.dots-menu-main ul{display:block;float:left;margin:0}
+.dots-menu-main ul li ul.sub-menu{display:none;position:absolute;top:100%;left:0;width:207px;z-index:999}
+.dots-menu-main ul li ul.sub-menu li{display:block;text-align:left;background:#b8b8b8;width:100%}
+.dots-menu-main ul li:hover ul.sub-menu{display:block}
+/* Menu End */
+
+/* Sidebar Start */
+.dotstore_plugin_sidebar{margin-left:20px;width:calc(100% - 40px);}
+.dotstore_plugin_sidebar a{display:inline-block;text-decoration:none}
+
+/* Sidebar section start */
+#dotsstoremain .dots-seperator{border-left:2px solid #bbb;display:inline-block;margin:0 0 10px 20px;position:relative;vertical-align:top;}
+#dotsstoremain .all-pad.hide-sidebar .dots-seperator{margin:0 0 0 20px;}
+#dotsstoremain .dots-seperator .toggleSidebar{position:absolute;top:50px;right:-12px;background:#0073aa;border-radius:50%;padding:2px;color:#fff;border:0;cursor:pointer;}
+.dotstore-sidebar-section{border:1px solid #dcdcdc;background:#fff;margin-bottom:10px;-webkit-box-shadow:0 1px 6px 0 rgba(0,0,0,.3);box-shadow:0 1px 6px 0 rgba(0,0,0,.3);}
+.dotstore-sidebar-section .dotstore-sidebar-section-heading{padding:15px 10px;border-bottom:1px solid #b8b8b8;}
+.dotstore-sidebar-section .dotstore-sidebar-section-heading .heading-text{font-size:16px;font-weight:600;color:#000;margin-left:5px;}
+.dotstore-sidebar-section .dotstore-sidebar-section-content{padding:15px 10px;}
+.dotstore-sidebar-section .dotstore-sidebar-section-content p,.dotstore-sidebar-section .dotstore-sidebar-section-content a,.important-link ul li a{font-size:14px!important;margin:0;}
+.dotstore-sidebar-section .dotstore-sidebar-section-content p{margin-bottom:5px;}
+.dotstore-sidebar-section .dotstore-pro-list{position:relative;list-style:none;}
+.dotstore-sidebar-section .dotstore-pro-list li{margin-left:20px;font-weight:600;margin-bottom:10px;}
+.dotstore-sidebar-section .dotstore-pro-list li:before{content:"+";position:absolute;left:0;font-weight:600;}
+.dotstore-sidebar-section .dotstore-pro-button .button{-webkit-box-sizing:border-box;box-sizing:border-box;padding:8px 12px;line-height:1.5;color:#000;border-radius:4px;-webkit-box-shadow:inset 0 -4px 0 rgba(0,0,0,.2);box-shadow:inset 0 -4px 0 rgba(0,0,0,.2);-webkit-filter:drop-shadow(0 2px 4px rgba(0,0,0,.2));filter:drop-shadow(0 2px 4px rgba(0,0,0,.2));text-decoration:none;background-color:#fec228;border-color:transparent;padding-bottom:10px;font-size:16px!important;font-weight:500;white-space:normal;}
+.dotstore-sidebar-section .dotstore-pro-button{text-align:center;}
+.dotstore-sidebar-section .star-container .dashicons-star-filled{color:#e6b800;}
+.dotstore-sidebar-section .image_box{max-width:100px;width:100%;margin:0 auto}
+.dotstore-sidebar-section .image_box img{width:100%;max-width:100%;margin:0 auto}
+.dotstore_plugin_sidebar .content_box{text-align:center;padding:0 10px;}
+.dotstore-sidebar-section .content_box h3{margin:20px 0;}
+.dotstore-sidebar-section .content_box p,.dotstore-sidebar-section .content_box{text-align:center;}
+.dotstore-sidebar-section .content_box a.btn_style{background-color:#0085ba;padding:10px;border-radius:4px;margin-bottom:10px;display:inline-block;color:#fff;font-weight:600;}
+.dotstore-sidebar-section .content_box a.btn_style i{margin-right:2px;}
+.dotstore-sidebar-section .video-detail{width:100%;display:inline-block;text-align:left;margin:5px 0 5px;}
+.dotstore-sidebar-section .video-detail ul{display:block;width:100%}
+.dotstore-sidebar-section .video-detail ul li{font-size:13px;color:#666;margin-top:10px;font-family:'Open Sans',sans-serif;width:100%;padding:0 10px;}
+.dotstore-sidebar-section .video-detail ul li img{display:inline-block;vertical-align:middle;margin-right:5px}
+.dotstore-sidebar-section .video-detail img.sidebar_plugin_icone{width:40px}
+.dotstore-sidebar-section .video-detail ul li a{width:calc(100% - 50px);display:inline-block;vertical-align:middle;line-height:24px;font-size:14px;}
+.dotstore-sidebar-section .view-button{margin-bottom:10px;display:block;text-align:center;}
+/* Sidebar section end */
+
+/* Voucher section start */
+.dotstore_discount_voucher{background:#fb5f51;color:#fff;padding:10px;text-align:center;margin-bottom:10px}
+.dotstore_discount_voucher span{display:block;text-align:center;text-transform:uppercase;padding:10px}
+.dotstore_discount_voucher span.dotstore_discount_title{font-weight:700;padding-bottom:0;font-size:17px;display:inline-block;margin-bottom:5px}
+.dotstore_discount_voucher span.dotstore-upgrade{font-size:14px}
+.dotstore_discount_voucher a.dotstore-upgrade{background:#87c852;color:#fff;padding:10px 20px;margin:6px 0 15px;-webkit-transition:.7s all;-o-transition:.7s all;transition:.7s all;font-size:14px;text-transform:uppercase;font-weight:600;letter-spacing:1.2px;border-radius:5px}
+.dotstore_discount_voucher a.dotstore-upgrade:hover{background:#87c852;-webkit-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1)}
+.dotstore_discount_voucher strong.dotstore-OFF{text-align:center;font-size:44px;display:block;line-height:44px;font-weight:700;border:3px dotted #fff;margin:20px;padding:20px 0 25px;position:relative}
+.dotstore_discount_voucher strong.dotstore-OFF:before{content:'';/* background: url(../images/scissor_left.png) no-repeat; */position:absolute;left:-10px;width:60px;height:50px;top:-18px}
+.dotstore_discount_voucher strong.dotstore-OFF:after{content:'';/* background: url(../images/scissor_right.png) no-repeat; */position:absolute;right:-20px;width:60px;height:50px;bottom:-33px}
+.dotstore_discount_voucher span.dotstore-with-code{font-size:14px;font-weight:700;padding:0;line-height:24px;display:inline-block;vertical-align:middle;margin-bottom:12px}
+.dotstore_discount_voucher span.dotstore-with-code b{color:#000;font-size:21px;padding-left:10px;line-height:22px;display:inline-block;font-weight:700;vertical-align:-webkit-baseline-middle;margin-top:-15px}
+/* Voucher section end */
+
+/* star rating css start */
+.et-star-rating{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse;font-size:1.5em;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;padding:0 .2em;text-align:center;}
+.et-star-rating-lnk{color:#23282d;}
+.et-star-rating input{display:none;}
+.et-star-rating label{margin:0 4px;width:28px;height:28px;cursor:pointer;background-image:url("../images/light-star.svg");background-repeat:no-repeat;}
+.et-star-rating label:hover,.et-star-rating label:hover ~ label{background-image:url("../images/dark-star.svg");}
+.et-star-rating input[type="radio"]:checked ~ label{background-image:url("../images/dark-star.svg");}
+/* star rating css end */
+
+/* Sidebar End */
